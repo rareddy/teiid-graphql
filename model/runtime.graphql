@@ -1,0 +1,6 @@
+
+type foo{
+  ID: ID!
+  NAME: String
+  SSN: String
+}
