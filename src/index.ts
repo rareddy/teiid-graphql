@@ -1,9 +1,9 @@
 import { ApolloServer } from 'apollo-server-express';
 import cors from 'cors';
 import express from 'express';
+import fs from 'fs';
 import http from 'http';
 import knex from 'knex';
-import fs from 'fs';
 
 import * as config from '../graphback.json';
 import { createRuntime } from './runtime';

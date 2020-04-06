@@ -6,7 +6,7 @@ import { makeExecutableSchema } from 'graphql-tools';
 import * as Knex from 'knex';
 import * as jsonConfig from '../graphback.json';
 import { loadSchema } from './loadSchema';
-import graphQLTypes from './pg/extractgraph.js';
+import graphQLTypes from './pg/extractgraph';
 /**
  * Method used to create runtime schema
  * It will be part of of the integration tests
